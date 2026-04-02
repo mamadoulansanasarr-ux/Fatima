@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Maître des équations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- En-tête -->
+  <header>
+    <h1>Seul le meilleur est excellent</h1>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#">À propos</a>
+      <a href="#">Contact</a>
+      <a href="#">Séries d'exercices</a>
+      <a href="#">Évaluations</a>
+      <a href="#">Fascicules</a>
+      <input type="text" id="search" placeholder="Rechercher un PDF..." />
+    </nav>
+  </header>
+<main>
+  <h2>Bienvenue sur votre espace d’apprentissage</h2>
+  <p>Choisissez une catégorie :</p>
+
+  <!-- Catégories principales -->
+  <div id="categories">
+    <button class="cat-btn" data-target="exercices">Exercices</button>
+    <button class="cat-btn" data-target="cours">Cours</button>
+    <button class="cat-btn" data-target="fascicules">Fascicules</button>
+    <button class="cat-btn" data-target="examens">Examens</button>
+  </div>
+
+  <!-- Niveaux pour Exercices -->
+  <div id="exercices" class="level hidden">
+    <h3>Choisissez un niveau :</h3>
+    <button class="level-btn" data-target="secondeS">secondeS</button>
+    <button class="level-btn" data-target="premiereS1">premierS1</button>
+    <button class="level-btn" data-target="premiereS2">premierS2</button>
+    <button class="level-btn" data-target="ts1">TS1</button>
+    <button class="level-btn" data-target="ts2">TS2</button>
+    
+  
+  </div>
+  <div id="cours" class="level hidden">
+    <h3>Choisissez un niveau :</h3>
+    <button class="level-btn" data-target="secondeS">secondeS</button>
+    <button class="level-btn" data-target="premiereS1">premierS1</button>
+    <button class="level-btn" data-target="premiereS2">premierS2</button>
+    <button class="level-btn" data-target="ts1">TS1</button>
+    <button class="level-btn" data-target="ts2">TS2</button>
+    
+    
+  </div>
+  <div id="examens" class="level hidden">
+    <h3>Choisissez un niveau :</h3>
+    <button class="level-btn" data-target="secondeS">secondeS </button>
+    <button class="level-btn" data-target="premiereS1">premierS1</button>
+    <button class="level-btn" data-target="premiereS2">premierS2</button>
+    <button class="level-btn" data-target="ts1">TS1</button>
+    <button class="level-btn" data-target="ts2">TS2</button>
+  </div>
+  <div id="fascicules" class="level hidden">
+    <h3>Choisissez un niveau :</h3>
+    <button class="level-btn" data-target="secondeS">secondeS</button>
+    <button class="level-btn" data-target="premiereS1">premierS1</button>
+    <button class="level-btn" data-target="premiereS2">premier S2</button>
+    <button class="level-btn" data-target="ts1">TS1</button>
+    <button class="level-btn" data-target="ts2">TS2</button>
+  </div>
+  <!-- Matières pour TS1 -->
+  <div id="ts1" class="subject hidden">
+    <h3>Choisissez une matière :</h3>
+    <button class="subject-btn" data-target="maths">Maths</button>
+    <button class="subject-btn" data-target="pc">Physique-Chimie</button>
+    <button class="subject-btn" data-target="svt">SVT</button>
+  </div>
+ <div id="premiereS1" class="subject hidden">
+    <h3>Choisissez une matière :</h3>
+    <button class="subject-btn" data-target="maths">Maths</button>
+    <button class="subject-btn" data-target="pc">Physique-Chimie</button>
+    <button class="subject-btn" data-target="svt">SVT</button>
+ </div>
+  <div id="premiereS2" class="subject hidden">
+    <h3>Choisissez une matière :</h3>
+    <button class="subject-btn" data-target="maths">Maths</button>
+    <button class="subject-btn" data-target="pc">Physique-Chimie</button>
+    <button class="subject-btn" data-target="svt">SVT</button>
+ </div>
+  <div id="ts2" class="subject hidden">
+    <h3>Choisissez une matière :</h3>
+    <button class="subject-btn" data-target="maths">Maths</button>
+    <button class="subject-btn" data-target="pc">Physique-Chimie</button>
+    <button class="subject-btn" data-target="svt">SVT</button>
+ </div>
+  <div id="secondeS" class="subject hidden">
+    <h3>Choisissez une matière :</h3>
+    <button class="subject-btn" data-target="maths">Maths</button>
+    <button class="subject-btn" data-target="pc">Physique-Chimie</button>
+    <button class="subject-btn" data-target="svt">SVT</button>
+  </div>
+ 
+<div id="fascicules-secondeS-pc" class="pdf-list hidden">
+  <h3>Fascicules</h3>
+  <ul>
+    <li>
+      <a href="fascicules/secondeS/pc/Fascicule_de_physique_2ndS.pdf" target="_blank" class="pdf-link">
+        Fascicule_Cours_de_physique_2ndS.pdf
+      </a>
+    </li>
+    <li>
+      <a href="fascicules/secondeS/pc/Fascicule_de_chimie_2ndS.pdf" target="_blank" class="pdf-link">
+        Fascicule_Cours_de_chimie_2ndS.pdf
+      </a>
+    </li>
+    <li>
+      <a href="fascicules/secondeS/pc/FASCICULE PC 2ndS. KAOLACK COMMUNE (1).pdf" target="_blank" class="pdf-link">
+        FASCICULE_EXERCICE PC 2S. KAOLACK COMMUNE (1).pdf
+      </a>
+    </li>
+    <li>
+      <a href="fascicules/secondeS/pc/Fascicule de science-physique_2ndS.pdf" target="_blank" class="pdf-link">
+        Fascicule_exercice de science-physique_2ndS.pdf
+      </a>
+    </li>
+  </ul>
+</div>
+ 
+  <div id="exercices-secondeS-pc" class="pdf-list hidden">
+  <h3>Exercices</h3>
+
+  <ul>
+    <li>
+      <a href="exercices/secondeS/pc/Devoir_N°2 du second semestre.pdf" target="_blank" class="pdf-link">
+        Devoir_N°2 du second semestre.pdf
+      </a>
+    </li>
+
+    <li>
+      <a href="exercices/secondeS/pc/Devoir_N°3 du second semestre.pdf" target="_blank" class="pdf-link">
+        Devoir_N°3 du second semestre.pdf
+      </a>
+    </li>
+  </ul>
+</div>
+</main>
+  <!-- Bouton retour en haut -->
+  <button id="topBtn">⬆ Retour en haut</button>
+
+  <!-- Pied de page -->
+  <footer>
+    © 2026 Mamadou Lansana Sarr – Maître des équations
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</body>
+</html>
